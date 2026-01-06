@@ -2,6 +2,9 @@
 A lightweight invoice generator for freelancers, small agencies, and makers who want professional invoices without renting heavy, expensive tools every month.
 You can create invoices, export PDFs, optionally plug in payments, and keep simple revenue/cost tracking for each job.
 
+<img width="1472" height="899" alt="image" src="https://github.com/user-attachments/assets/83cd0f00-5d43-47a6-aa15-7e1f82a85361" />
+
+
 ## ✨ Features
 - Create invoices with:
   - Client details (name, email, address)

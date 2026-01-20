@@ -2,6 +2,8 @@
 
 A complete course/product launch platform with countdown timer, waitlist management, email automation, Stripe checkout integration, and an admin dashboard to manage your entire launch campaign.
 
+<img width="1499" height="908" alt="image" src="https://github.com/user-attachments/assets/d2d5ec60-72f9-4fdb-bc27-bce388beca99" />
+
 ---
 
 ## ✨ Features

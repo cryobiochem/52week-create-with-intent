@@ -9,7 +9,7 @@
 ## 📅 The 52 Projects
 
 1. Invoice Generator
-2. TBD
+2. Lead Scorer & Auto-Router
 3. TBD
 4. TBD
 

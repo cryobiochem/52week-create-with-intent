@@ -10,7 +10,7 @@
 
 1. Invoice Generator
 2. Lead Scorer & Auto-Router
-3. TBD
+3. Course Product Launch + Admin Dashboard
 4. TBD
 
 *Made for creators who ship, not shipmen who sail.*

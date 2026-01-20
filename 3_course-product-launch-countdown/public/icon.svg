@@ -1,0 +1,19 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @media (prefers-color-scheme: light) {
+      .background { fill: #2563eb; }
+      .foreground { fill: white; }
+    }
+    @media (prefers-color-scheme: dark) {
+      .background { fill: #3b82f6; }
+      .foreground { fill: white; }
+    }
+  </style>
+  <rect class="background" width="180" height="180" rx="37" />
+  <!-- Brain icon -->
+  <path class="foreground" d="M90 40c-8.284 0-15 6.716-15 15 0 2.21.478 4.31 1.337 6.197C72.85 63.347 70 67.337 70 72c0 8.284 6.716 15 15 15h10c8.284 0 15-6.716 15-15 0-4.663-2.85-8.653-6.337-10.803A14.937 14.937 0 0 0 105 55c0-8.284-6.716-15-15-15zm0 10c2.761 0 5 2.239 5 5 0 .34-.034.672-.1.993l-.293 1.415 1.294.633C98.765 59.203 100 61.478 100 64c0 2.761-2.239 5-5 5H85c-2.761 0-5-2.239-5-5 0-2.522 1.235-4.797 4.099-5.959l1.294-.633-.293-1.415A4.97 4.97 0 0 1 85 55c0-2.761 2.239-5 5-5z" transform="translate(0, 35)"/>
+  <path class="foreground" d="M60 65c-5.523 0-10 4.477-10 10s4.477 10 10 10c1.657 0 3.22-.403 4.6-1.115C66.214 87.744 69.835 90 74 90c5.523 0 10-4.477 10-10 0-1.105-.179-2.17-.51-3.165C85.424 75.684 87 73.475 87 71c0-5.523-4.477-10-10-10-1.657 0-3.22.403-4.6 1.115C70.786 58.256 67.165 56 63 56c-5.523 0-10 4.477-10 10 0 1.105.179 2.17.51 3.165C51.576 70.316 50 72.525 50 75c0 5.523 4.477 10 10 10z" transform="translate(30, 15)" opacity="0.9"/>
+  <circle class="foreground" cx="70" cy="100" r="8" opacity="0.7"/>
+  <circle class="foreground" cx="110" cy="100" r="8" opacity="0.7"/>
+  <circle class="foreground" cx="90" cy="115" r="6" opacity="0.6"/>
+</svg>

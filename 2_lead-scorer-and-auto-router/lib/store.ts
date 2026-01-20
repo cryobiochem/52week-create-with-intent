@@ -1,0 +1,61 @@
+import type { Lead, TeamMember } from "./types"
+
+// In-memory storage for the MVP
+export const initialTeamMembers: TeamMember[] = [
+  { id: "1", name: "Maria Silva", role: "Enterprise Sales", capacity: 5, assignedLeads: 0, weeklyLimit: 20 },
+  { id: "2", name: "João Santos", role: "Enterprise Sales", capacity: 5, assignedLeads: 0, weeklyLimit: 20 },
+  { id: "3", name: "Alice Johnson", role: "Senior Sales Rep", capacity: 10, assignedLeads: 0, weeklyLimit: 40 },
+  { id: "4", name: "Bob Smith", role: "Senior Sales Rep", capacity: 8, assignedLeads: 0, weeklyLimit: 35 },
+  { id: "5", name: "Carol Williams", role: "Mid-level Rep", capacity: 15, assignedLeads: 0, weeklyLimit: 50 },
+  { id: "6", name: "David Brown", role: "Mid-level Rep", capacity: 15, assignedLeads: 0, weeklyLimit: 50 },
+  { id: "7", name: "Eva Martinez", role: "Junior Rep / SDR", capacity: 25, assignedLeads: 0, weeklyLimit: 75 },
+  { id: "8", name: "Frank Lee", role: "Junior Rep / SDR", capacity: 25, assignedLeads: 0, weeklyLimit: 75 },
+  { id: "9", name: "Marketing Bot", role: "Marketing Automation", capacity: 1000, assignedLeads: 0, weeklyLimit: 5000 },
+]
+
+export const sampleLeads: Lead[] = [
+  {
+    id: "1",
+    name: "John Doe",
+    email: "john@techcorp.com",
+    company: "TechCorp",
+    location: "Portugal",
+    industry: "Tech",
+    budget: 75000,
+    source: "Referral",
+    score: 0,
+    assignedTo: null,
+    createdAt: new Date("2024-01-10"),
+    companySize: "Mid-Market",
+    buyingStage: "Active Buying Cycle",
+  },
+  {
+    id: "2",
+    name: "Jane Smith",
+    email: "jane@retailco.com",
+    company: "RetailCo",
+    location: "USA",
+    industry: "Retail",
+    budget: 8000,
+    source: "Website",
+    score: 0,
+    assignedTo: null,
+    createdAt: new Date("2024-01-11"),
+    companySize: "SMB",
+  },
+  {
+    id: "3",
+    name: "Mike Johnson",
+    email: "mike@financeplus.com",
+    company: "FinancePlus",
+    location: "UK",
+    industry: "Finance",
+    budget: 150000,
+    source: "Trade Show",
+    score: 0,
+    assignedTo: null,
+    createdAt: new Date("2024-01-12"),
+    companySize: "Enterprise",
+    buyingStage: "Budget Approved",
+  },
+]
